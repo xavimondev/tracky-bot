@@ -1,0 +1,23 @@
+{
+  "name": "bot-discord-ec2",
+  "version": "1.0.0",
+  "description": "A bot for web scrapping and send notification on discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "playwright-chromium": "^1.17.1"
+  },
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
