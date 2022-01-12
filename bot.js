@@ -33,7 +33,7 @@ async function sendMessageDiscord ({ vendor, alias, img, url }) {
       // console.log('Ready!')
       console.log(`Logged in as ${client.user.tag}!`)
       // Finding specific channel
-      const channels = client.channels.cache.filter(channel => channel.name.includes('xbox-scrapping'))
+      const channels = client.channels.cache.filter(channel => channel.name.includes('products-stock'))
       // If we has channels, we'll create thread and send message into it
       if (channels.size > 0) {
         channels.forEach(channel => {
